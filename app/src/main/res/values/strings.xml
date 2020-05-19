@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DocumentScannerAndroid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_Docs">DocS</string>
+    <string name="title_qr">QR</string>
+    <string name="take_picture">Take Pic</string>
+    <string name="dialog_message">URL</string>
+    <string name="dialog_title">URL</string>
+
+
+    <string name="applink">Looking for Digital Visiting card?
+<a href="https://play.google.com/store/apps/details?id=com.themarkwebs.govcard">Get it here</a>
+</string>
+</resources>

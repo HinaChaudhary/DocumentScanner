@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:background="#00ff00"
+    android:orientation="vertical">
+
+
+
+        &lt;!&ndash;   <View
+               android:id="@+id/bar"
+               android:layout_width="match_parent"
+               android:layout_height="2dp"
+               android:background="@android:color/holo_red_dark"
+               android:visibility="gone"/>&ndash;&gt;
+
+
+    &lt;!&ndash;<info.androidhive.barcode.ScannerOverlay
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44000000"
+        app:line_color="#7323DC"
+        app:line_speed="6"
+        app:line_width="5"
+        app:square_height="250"
+        app:square_width="250" />&ndash;&gt;
+
+    <info.androidhive.barcode.camera.CameraSourcePreview
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <info.androidhive.barcode.camera.GraphicOverlay
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </info.androidhive.barcode.camera.CameraSourcePreview>-->
+<!--
+
+    <com.example.customcamera.QRSourcePreview
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <info.androidhive.barcode.camera.GraphicOverlay
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </info.androidhive.barcode.camera.GraphicOverlay>
+    </com.example.customcamera.QRSourcePreview>
+-->
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"/>
+
+    <team.clevel.documentscannerandroid.activities.ScannerLine
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#44000000"
+        app:line_color="#7323DC"
+        app:line_speed="6"
+        app:line_width="4"
+        app:square_height="200"
+        app:square_width="200" />
+
+
+    <TextView
+        android:id="@+id/txtBarcodeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/white"
+        android:clickable="true"
+        android:textSize="20sp"
+       />
+
+    <Button
+        android:id="@+id/btnAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="ADD CONTENT IN THE MAIL" />
+
+
+</RelativeLayout>
+<!--
+</LinearLayout>-->

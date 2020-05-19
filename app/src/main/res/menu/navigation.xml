@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_docs"
+        android:icon="@drawable/ic_camera"
+        android:title="@string/title_Docs" />
+
+    <item
+        android:id="@+id/navigation_qr"
+        android:icon="@drawable/circle"
+        android:title="@string/title_qr" />
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:title="navigation" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:title="navigation" />
+</menu>
